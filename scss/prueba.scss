@@ -8,7 +8,7 @@ $color: #eee;
 *{}
   
   body {
-    // font-family: 'Open Sans', sans-serif !important;
+    
     color: #444444;
     font-family: 'Poppins', sans-serif !important;
     background-color: $color !important;
@@ -74,7 +74,7 @@ $color: #eee;
     font-size: 15px;
     letter-spacing: 0.5px;
     font-weight: 500;
-    font-family: "Open Sans", sans-serif;
+    
   }
   
   .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -336,7 +336,7 @@ $color: #eee;
     color:white;
     text-decoration: none;
     font-size: 16px;
-    font-family: "Open Sans", sans-serif;
+
   
       font-weight:lighter; 
       
@@ -345,7 +345,7 @@ $color: #eee;
     font-weight:bold;
     color:white;
     font-size: 22x;
-    font-family: "Open Sans", sans-serif;
+  
     border-bottom: groove 2px white;
   
   }
@@ -359,19 +359,17 @@ $color: #eee;
     margin-top: 50px;
     width: 1067px;
     height: 550px;
-    border-radius: 20px;
-    box-shadow: 2px 4px 10px 3px  rgb(172, 131, 131);
+   
     }
     .inicio__principalIzquierdo--gradient{
-      background: rgb(132,125,238);
-      background: linear-gradient(90deg, rgba(132,125,238,1) 0%, rgba(222,220,235,1) 24%, rgba(255,255,255,1) 100%);
+      
+      background: #eee !important;
     }
     
   
   .inicio__fotoPrincipal{
     width:  1067px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-radius: 2em;
     box-shadow: 2px 4px 10px 3px  rgb(172, 131, 131);
   }
   #inicio__textoIzquierdo{
@@ -380,14 +378,16 @@ $color: #eee;
     
     text-align: center;
   }
-  .inicio__botonIzquierdo{
+  .boton-cotizar{
    
-    background-color: white;
-    margin-top: 15px;
-    padding: 5px;
-    font-size: 20px;
-    border-radius: 8px;
-    font-weight:bold; 
+    background: transparent;
+    color: rgb(105, 102, 102);
+     margin-top: 15px;
+     padding: 10px;
+     font-size: 1.2em;
+     border-radius: 8px;
+     border: 1px groove #17a2b8;
+     font-weight:bold; 
     
   }
   #inicio__principalDerecho{
@@ -764,13 +764,7 @@ $color: #eee;
      font-weight:lighter; 
      display:inline-block;
  }
- /* .menu {
-      font-family: 'Shippori Mincho B1', serif;
-     font-size: 20px;
-     color: blue;
-     word-spacing: 20px;
-    
- } */
+ 
  #menuBar{
    
  margin-left: 15px;
@@ -789,11 +783,7 @@ $color: #eee;
     background-color:rgb(117, 197, 197);
     margin:2px 40px;
     width:300px; /*ancho */
-    height: 200px;/*alto */
-    /* border: 4px solid #494949 !important; */
-    border-radius: 30px ;
-    box-shadow: 2px 4px 10px 3px  rgb(172, 131, 131);
-  
+    height: 20vh;/*alto */
   }
   .inicio__fotoPrincipal{
     width: 300px;
@@ -807,15 +797,15 @@ $color: #eee;
     font-size: 8px;
     text-align: center;
   }
-  .inicio__botonIzquierdo{
-
-    background-color: white;
-    margin-top: 15px;
-    padding: 5px;
-    font-size: 8px;
-    border-radius: 2px;
-    font-weight:bold; 
-    
+  .boton-cotizar{
+    background: transparent;
+    color: rgb(105, 102, 102);
+     margin-top: 15px;
+     padding: 10px;
+     font-size: 1.2em;
+     border-radius: 8px;
+     border: 1px groove #17a2b8;
+     font-weight:bold; 
   }
   #inicio__principalDerecho{
   
@@ -885,14 +875,11 @@ $color: #eee;
     flex-flow: row wrap;
     }
     #inicio__principalIzquierdo{
-      background-color:rgb(117, 197, 197);
+   
       margin:10px 65px;
       width:620px; /*ancho */
       height: 320px;/*alto */
-      /* border: 4px solid #494949 !important; */
-      border-radius: 30px ;
-      box-shadow: 2px 4px 10px 3px  rgb(172, 131, 131);
-    
+         
     }
     .inicio__fotoPrincipal{
       width: 620px;
@@ -905,13 +892,16 @@ $color: #eee;
       font-size: 8px;
       text-align: center;
     }
-    .inicio__botonIzquierdo{
-      background-color: white;
-      margin-top: 15px;
-      padding: 5px;
-      font-size: 12px;
-      border-radius: 3px;
-      font-weight:bold; 
+  
+    .boton-cotizar{
+      background: transparent;
+    color: rgb(105, 102, 102);
+     margin-top: 15px;
+     padding: 10px;
+     font-size: 1.2em;
+     border-radius: 8px;
+     border: 1px groove #17a2b8;
+     font-weight:bold; 
       
     }
     #inicio__principalDerecho{
@@ -955,18 +945,10 @@ $color: #eee;
     #nosotros__titulo {
       margin-left: 20px; 
       font-size: 30px;
-     
-       color: white;
-       font-weight:lighter; 
+       color: white;      
        display:inline-block;
    }
-   /* .menu {
-        font-family: 'Shippori Mincho B1', serif;
-       font-size: 20px;
-       color: blue;
-       word-spacing: 20px;
-      
-   } */
+    
    #menuBar{
      
    margin-left: 50px;
@@ -979,9 +961,7 @@ $color: #eee;
    .menu:hover{
     
    }
-   /* .menu{
-     
-   } */
+ 
    div h1 a{
      color:white;
      text-decoration: none;
@@ -993,7 +973,6 @@ $color: #eee;
    #header{
      background-color:cornflowerblue;
      padding: 5px;
-     /* border-bottom: groove 3px black; */
    }
    div b a{
      color:white;
@@ -1006,7 +985,7 @@ $color: #eee;
      font-weight:bold;
      color:white;
      font-size: 22x;
-     font-family: '', sans-serif;
+   
      border-bottom: groove 2px white;
    
    }
@@ -1017,15 +996,13 @@ $color: #eee;
    #inicio__principalIzquierdo{
      background-color:rgb(117, 197, 197);
      margin-left: 110px;
-     width: 1000px; /*ancho */
-     height: 550px;/*alto */
-     /* border: 4px solid #494949 !important; */
-     border-radius: 30px ;
-     box-shadow: 2px 4px 10px 3px  rgb(172, 131, 131);
+     width: 50%; /*ancho */
+     height: 50vh;/*alto */
+     
    
    }
    .inicio__fotoPrincipal{
-     width:  1000px;
+     width:  100%;
      border-top-left-radius: 30px;
      border-top-right-radius: 30px;
      box-shadow: 2px 4px 10px 3px  rgb(172, 131, 131);
@@ -1035,12 +1012,14 @@ $color: #eee;
      font-size: 15px;
      text-align: center;
    }
-   .inicio__botonIzquierdo{
-     background-color: white;
+   .boton-cotizar{
+     background: transparent;
+     color: rgb(105, 102, 102);
      margin-top: 15px;
-     padding: 5px;
-     font-size: 20px;
+     padding: 10px;
+     font-size: 1.2em;
      border-radius: 8px;
+     border: 1px groove #17a2b8;
      font-weight:bold; 
      
    }
@@ -1078,31 +1057,10 @@ $color: #eee;
 
 
 
-  /* PREGUNTAS FRECUENTES CSS */
-
-  /* :root {
-    --primario: #e23939;
-    --gris-claro: #B8B8B8;
-    --sombra: 0 0 13px 0 rgba(185,185,185, .25);
-  }
-  
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  } */
-  
-  
-  
-  /* main {
-    max-width: 1000px;
-    width: 90%;
-    margin: 40px auto;
-  } */
   
   .nosotros__titulo {
     color: #3a3a3a;
-    font-weight: 700;
+    font-size: 40px;
     text-align: center;
     margin: 50px;
     
@@ -1240,9 +1198,10 @@ body {
   
 
   .card {
-    margin-top: 50px;
+    margin-top: 20px;
+   margin-left: 12px;
     background: #eee;
-    padding: 3em;
+    padding: 1.5em;
     line-height: 1.5em; }
   
 #nosotros__consultenos{
@@ -1308,21 +1267,7 @@ body {
  left:0 !important;
 }
 
-/* Block component (PADRE)*/
-button {}
 
-.btn{}
-
-/* Elementos que dependen de block (HIJOS)*/ 
-.btn__price {}
-
-/* Modificadores que cambian el estilo del bloque */
-.btn--orange {} 
-.btn--big {}
-
-.btn__price--big{
-
-}
 
 .foto-cotizar{
   height: 360px;
@@ -1369,126 +1314,7 @@ border-radius: 0px;
 }
 
 
-// ACCESORIOS TEMPLATE
 
-// .section-cards{
-//   width: 100%;
-//   min-height: 100vh;
-//   background-color: #eee;
-// }
-// .cards{
-//   width: 100%;
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: center; 
-//   align-items: center;
-//   margin: auto;
-// }
-// .cards .new-arrival{
-//   width: 100%;
-//   margin-top:20px;
-// }
-// .cards .new-arrival h1{
-//   text-align: center;
-//   font-size: 50px;
-//   color: #222;
-//   text-transform: uppercase;
-//   font-weight: 700;
-//   letter-spacing: 1px;
-// }
-// .cards .new-arrival .nombre-articulo::after{
-//   content: "";
-//   height: 5px;
-//   width: 325px;
-//   background-color: #222;
-//   border-radius: 5px;
-//   display: block;
-//   margin: auto;
-// }
-// .card{
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   flex-direction: column;
-//   // box-shadow: 1px 2px 4px rgb(0,0,0,25%);
-//   width: 325px;
-//   text-align: center;
-//   margin:25px;
-//   cursor: pointer;
-//   background-color: #fff;
-// }
-// .image-section{
-//   width: 100%;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
-// .image-section img{
-//   width: 100%;
-//   height: auto;
-// }
-// .description{
-//   text-align: center;
-//   margin-top: 20px;
-// }
-// .description .nombre-articulo{
-//   font-size: 20px;
-//   text-transform: uppercase;
-//   color:#222;
-//   letter-spacing: 2px;
-//   margin-top: 10px;
-// }
-// .description p{
-//   font-size: 17px;
-//   letter-spacing: 1.5px;
-//   margin-top: 10px;
-// }
-// .description span{
-//   margin-left: 8px;
-// }
-// .description del{
-//   margin-left: 7px;
-//   font-size: 15px;
-//   color:#f2533a;
-// }
-// .button-group{
-//   margin-top: 30px;
-// }
-// .button-group .buy{
-//   background-color: #1976d2;
-//   font-size: 14px;
-//   padding: 8px 20px;
-//   border-radius: 5px;
-//   text-decoration: none;
-//   letter-spacing: 1px;
-//   color:#fff;
-// }
-// .button-group .buy:hover{
-//   background-color: #0b348d;
-//   transition: 0.6s ease;
-// }
-// .button-group .cart{
-//   background-color: #f2533a;
-//   font-size: 14px;
-//   padding: 8px 20px;
-//   border-radius: 5px;
-//   text-decoration: none !important;
-//   letter-spacing: 1px;
-//   color:#fff;
-// }
-// .button-group .cart:hover{
-//   background-color: #0b348d;
-//   transition: 0.6s ease;
-// }
-// .star-icons{
-//   margin-top:20px;
-//   margin-bottom: 10px;
-// }
-// .star-icons i{
-//   color:#db8b21;
-//   padding: 0px 3px;
-//   font-size: 18px;
-// }
 .section-cards{
   width: 100%;
   min-height: 100vh;
@@ -1606,4 +1432,9 @@ border-radius: 0px;
   color:#db8b21;
   padding: 0px 3px;
   font-size: 18px;
+}
+
+.buscador{
+  margin: 0 auto ;
+  align-content: center ;
 }

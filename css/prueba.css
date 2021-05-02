@@ -56,8 +56,7 @@ a {
   transition: 0.3s;
   font-size: 15px;
   letter-spacing: 0.5px;
-  font-weight: 500;
-  font-family: "Open Sans", sans-serif; }
+  font-weight: 500; }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #47b2e4; }
@@ -273,14 +272,12 @@ div b a {
   color: white;
   text-decoration: none;
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
   font-weight: lighter; }
 
 .activo {
   font-weight: bold;
   color: white;
   font-size: 22x;
-  font-family: "Open Sans", sans-serif;
   border-bottom: groove 2px white; }
 
 .inicio {
@@ -291,30 +288,28 @@ div b a {
   margin-left: 110px;
   margin-top: 50px;
   width: 1067px;
-  height: 550px;
-  border-radius: 20px;
-  box-shadow: 2px 4px 10px 3px #ac8383; }
+  height: 550px; }
 
 .inicio__principalIzquierdo--gradient {
-  background: #847dee;
-  background: linear-gradient(90deg, #847dee 0%, #dedceb 24%, white 100%); }
+  background: #eee !important; }
 
 .inicio__fotoPrincipal {
   width: 1067px;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+  border-radius: 2em;
   box-shadow: 2px 4px 10px 3px #ac8383; }
 
 #inicio__textoIzquierdo {
   margin-top: 12px;
   text-align: center; }
 
-.inicio__botonIzquierdo {
-  background-color: white;
+.boton-cotizar {
+  background: transparent;
+  color: #696666;
   margin-top: 15px;
-  padding: 5px;
-  font-size: 20px;
+  padding: 10px;
+  font-size: 1.2em;
   border-radius: 8px;
+  border: 1px groove #17a2b8;
   font-weight: bold; }
 
 #inicio__principalDerecho {
@@ -627,13 +622,6 @@ div hr {
     color: white;
     font-weight: lighter;
     display: inline-block; }
-  /* .menu {
-      font-family: 'Shippori Mincho B1', serif;
-     font-size: 20px;
-     color: blue;
-     word-spacing: 20px;
-    
- } */
   #menuBar {
     margin-left: 15px;
     word-spacing: 30px;
@@ -647,11 +635,8 @@ div hr {
     margin: 2px 40px;
     width: 300px;
     /*ancho */
-    height: 200px;
-    /*alto */
-    /* border: 4px solid #494949 !important; */
-    border-radius: 30px;
-    box-shadow: 2px 4px 10px 3px #ac8383; }
+    height: 20vh;
+    /*alto */ }
   .inicio__fotoPrincipal {
     width: 300px;
     border-top-left-radius: 2px;
@@ -661,12 +646,14 @@ div hr {
     margin-top: 2px;
     font-size: 8px;
     text-align: center; }
-  .inicio__botonIzquierdo {
-    background-color: white;
+  .boton-cotizar {
+    background: transparent;
+    color: #696666;
     margin-top: 15px;
-    padding: 5px;
-    font-size: 8px;
-    border-radius: 2px;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    border: 1px groove #17a2b8;
     font-weight: bold; }
   #inicio__principalDerecho {
     margin: 3px 20px;
@@ -719,15 +706,11 @@ div hr {
     display: flex;
     flex-flow: row wrap; }
   #inicio__principalIzquierdo {
-    background-color: #75c5c5;
     margin: 10px 65px;
     width: 620px;
     /*ancho */
     height: 320px;
-    /*alto */
-    /* border: 4px solid #494949 !important; */
-    border-radius: 30px;
-    box-shadow: 2px 4px 10px 3px #ac8383; }
+    /*alto */ }
   .inicio__fotoPrincipal {
     width: 620px;
     border-top-left-radius: 10px;
@@ -737,12 +720,14 @@ div hr {
     margin-top: 2px;
     font-size: 8px;
     text-align: center; }
-  .inicio__botonIzquierdo {
-    background-color: white;
+  .boton-cotizar {
+    background: transparent;
+    color: #696666;
     margin-top: 15px;
-    padding: 5px;
-    font-size: 12px;
-    border-radius: 3px;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    border: 1px groove #17a2b8;
     font-weight: bold; }
   #inicio__principalDerecho {
     margin: 3px 20px;
@@ -777,31 +762,19 @@ div hr {
     margin-left: 20px;
     font-size: 30px;
     color: white;
-    font-weight: lighter;
     display: inline-block; }
-  /* .menu {
-        font-family: 'Shippori Mincho B1', serif;
-       font-size: 20px;
-       color: blue;
-       word-spacing: 20px;
-      
-   } */
   #menuBar {
     margin-left: 50px;
     word-spacing: 30px;
     font-size: 16px;
     display: inline-block; }
-  /* .menu{
-     
-   } */
   div h1 a {
     color: white;
     text-decoration: none;
     font-weight: bold; }
   #header {
     background-color: cornflowerblue;
-    padding: 5px;
-    /* border-bottom: groove 3px black; */ }
+    padding: 5px; }
   div b a {
     color: white;
     text-decoration: none;
@@ -811,7 +784,6 @@ div hr {
     font-weight: bold;
     color: white;
     font-size: 22x;
-    font-family: '', sans-serif;
     border-bottom: groove 2px white; }
   .inicio {
     display: flex;
@@ -819,15 +791,12 @@ div hr {
   #inicio__principalIzquierdo {
     background-color: #75c5c5;
     margin-left: 110px;
-    width: 1000px;
+    width: 50%;
     /*ancho */
-    height: 550px;
-    /*alto */
-    /* border: 4px solid #494949 !important; */
-    border-radius: 30px;
-    box-shadow: 2px 4px 10px 3px #ac8383; }
+    height: 50vh;
+    /*alto */ }
   .inicio__fotoPrincipal {
-    width: 1000px;
+    width: 100%;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     box-shadow: 2px 4px 10px 3px #ac8383; }
@@ -835,12 +804,14 @@ div hr {
     margin-top: 20px;
     font-size: 15px;
     text-align: center; }
-  .inicio__botonIzquierdo {
-    background-color: white;
+  .boton-cotizar {
+    background: transparent;
+    color: #696666;
     margin-top: 15px;
-    padding: 5px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 1.2em;
     border-radius: 8px;
+    border: 1px groove #17a2b8;
     font-weight: bold; }
   #inicio__principalDerecho {
     margin: 3px 6px;
@@ -864,26 +835,9 @@ div hr {
   #inicio__tituloDerecho {
     font-size: 30px; } }
 
-/* PREGUNTAS FRECUENTES CSS */
-/* :root {
-    --primario: #e23939;
-    --gris-claro: #B8B8B8;
-    --sombra: 0 0 13px 0 rgba(185,185,185, .25);
-  }
-  
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  } */
-/* main {
-    max-width: 1000px;
-    width: 90%;
-    margin: 40px auto;
-  } */
 .nosotros__titulo {
   color: #3a3a3a;
-  font-weight: 700;
+  font-size: 40px;
   text-align: center;
   margin: 50px; }
 
@@ -1075,9 +1029,10 @@ img {
   flex-grow: 1; }
 
 .card {
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-left: 12px;
   background: #eee;
-  padding: 3em;
+  padding: 1.5em;
   line-height: 1.5em; }
 
 #nosotros__consultenos {
@@ -1122,9 +1077,6 @@ img {
   top: 0 !important;
   left: 0 !important; }
 
-/* Block component (PADRE)*/
-/* Elementos que dependen de block (HIJOS)*/
-/* Modificadores que cambian el estilo del bloque */
 .foto-cotizar {
   height: 360px; }
 
@@ -1321,3 +1273,7 @@ img {
   color: #db8b21;
   padding: 0px 3px;
   font-size: 18px; }
+
+.buscador {
+  margin: 0 auto;
+  align-content: center; }
